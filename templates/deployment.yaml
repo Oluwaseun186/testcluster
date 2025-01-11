@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: "testing"
-          image: oluwaseun7/testing-docker:1.0.1 
+          image: oluwaseun7/testing-docker:1.1.1 
           imagePullPolicy: Always
           resources:
             limits:
