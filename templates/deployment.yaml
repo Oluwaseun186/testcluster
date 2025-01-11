@@ -12,7 +12,7 @@ spec:
         app: testing
     spec:
       containers:
-        - name: testing
+        - name: "testing"
           image: oluwaseun7/testing-docker:1.0.1 
           imagePullPolicy: Always
           resources:
