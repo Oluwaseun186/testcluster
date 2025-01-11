@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testing
+  name: testings
   namespace: argocd
 spec:
   selector:
     matchLabels:
-      app: testing
+      app: testings
   template:
     metadata:
       labels:
-        app: testing
+        app: testings
     spec:
       containers:
-        - name: "testing"
-          image: oluwaseun7/testing-docker:1.2.1 
+        - name: "testings"
+          image: oluwaseun7/testings-docker:1.2.1 
           imagePullPolicy: Always
           resources:
             limits:
