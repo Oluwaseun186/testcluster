@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-service
-  namespace: my-namespace
+  namespace: argocd
 spec:
   type: LoadBalancer
   selector:
